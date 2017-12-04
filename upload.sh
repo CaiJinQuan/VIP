@@ -17,5 +17,5 @@ git add .
 git commit -am ${NewVersionNumber}
 git tag ${NewVersionNumber}
 git push origin master --tags
-cd ~/.cocoapods/repos/JKConfigPrivatePod && git pull origin master && cd - && pod repo push JKConfigPrivatePod VIP.podspec --verbose --allow-warnings --use-libraries
+cd ~/.cocoapods/repos/JKConfigPrivatePods && git pull origin master && cd - && pod repo push JKConfigPrivatePods VIP.podspec --verbose --allow-warnings --use-libraries
 
