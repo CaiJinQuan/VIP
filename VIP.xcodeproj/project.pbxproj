@@ -14,6 +14,8 @@
 		7F9D3EA21FD52D72004D36FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F9D3EA11FD52D72004D36FC /* Assets.xcassets */; };
 		7F9D3EA51FD52D72004D36FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F9D3EA31FD52D72004D36FC /* LaunchScreen.storyboard */; };
 		7F9D3EA81FD52D72004D36FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9D3EA71FD52D72004D36FC /* main.m */; };
+		7F9D3EB11FD52FAF004D36FC /* VIPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9D3EB01FD52FAF004D36FC /* VIPViewController.m */; };
+		7F9D3EB51FD52FCA004D36FC /* Target_VIP.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9D3EB41FD52FCA004D36FC /* Target_VIP.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		7F9D3EA41FD52D72004D36FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F9D3EA61FD52D72004D36FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F9D3EA71FD52D72004D36FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F9D3EAF1FD52FAF004D36FC /* VIPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VIPViewController.h; sourceTree = "<group>"; };
+		7F9D3EB01FD52FAF004D36FC /* VIPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VIPViewController.m; sourceTree = "<group>"; };
+		7F9D3EB31FD52FCA004D36FC /* Target_VIP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_VIP.h; sourceTree = "<group>"; };
+		7F9D3EB41FD52FCA004D36FC /* Target_VIP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_VIP.m; sourceTree = "<group>"; };
 		BAD06F1ADD4C6D8A00F48103 /* Pods-VIP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VIP/Pods-VIP.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,6 +71,7 @@
 		7F9D3E971FD52D72004D36FC /* VIP */ = {
 			isa = PBXGroup;
 			children = (
+				7F9D3EAE1FD52FA1004D36FC /* VIP */,
 				7F9D3E981FD52D72004D36FC /* AppDelegate.h */,
 				7F9D3E991FD52D72004D36FC /* AppDelegate.m */,
 				7F9D3E9B1FD52D72004D36FC /* ViewController.h */,
@@ -76,6 +83,25 @@
 				7F9D3EA71FD52D72004D36FC /* main.m */,
 			);
 			path = VIP;
+			sourceTree = "<group>";
+		};
+		7F9D3EAE1FD52FA1004D36FC /* VIP */ = {
+			isa = PBXGroup;
+			children = (
+				7F9D3EB21FD52FB3004D36FC /* Targets */,
+				7F9D3EAF1FD52FAF004D36FC /* VIPViewController.h */,
+				7F9D3EB01FD52FAF004D36FC /* VIPViewController.m */,
+			);
+			path = VIP;
+			sourceTree = "<group>";
+		};
+		7F9D3EB21FD52FB3004D36FC /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				7F9D3EB31FD52FCA004D36FC /* Target_VIP.h */,
+				7F9D3EB41FD52FCA004D36FC /* Target_VIP.m */,
+			);
+			path = Targets;
 			sourceTree = "<group>";
 		};
 		D4815AD6DF74A5AF68EB42C0 /* Frameworks */ = {
@@ -220,6 +246,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F9D3EB51FD52FCA004D36FC /* Target_VIP.m in Sources */,
+				7F9D3EB11FD52FAF004D36FC /* VIPViewController.m in Sources */,
 				7F9D3E9D1FD52D72004D36FC /* ViewController.m in Sources */,
 				7F9D3EA81FD52D72004D36FC /* main.m in Sources */,
 				7F9D3E9A1FD52D72004D36FC /* AppDelegate.m in Sources */,
